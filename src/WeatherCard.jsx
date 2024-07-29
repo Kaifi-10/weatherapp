@@ -5,7 +5,7 @@ const WeatherCard = ({title, data}) => {
 //   const { location, current } = weatherData;
 
   return (
-    <div className="weather-card">
+    <div className="weather-cards">
       
       <div>{title} </div>
       <div>{data} </div>      

@@ -10,7 +10,7 @@ const SearchBox = ({ onSearch }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     onSearch(location);
-    setLocation('');
+    // setLocation('');
   };
 
   return (

@@ -30,7 +30,7 @@ function Weather() {
             // console.log(city)
             setLoading(false)
         } catch (error) {
-            alert('Error fetching weather data:', error);
+            alert('Failed to fetch weather data', error);
         }
     };
 
