@@ -41,7 +41,7 @@ function Weather() {
                 {loading ? <p style={{color: '#000'}}>Loading data...</p> : (
                     <div>
                         {weatherData && 
-                        <div style={{
+                        <div className="weather-cards" style={{
                             display:'flex',
                             margin: '10px',
                             marginRight: '10px',
